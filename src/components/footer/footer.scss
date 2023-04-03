@@ -1,0 +1,28 @@
+.footer-contain {
+    display: inline-block;
+    padding-left: 20%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-top: 10px;
+    position: relative;
+    background-color: #eee;
+}
+
+.footer-section-two {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-section-columns {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+}
+
+.footer-section-columns span {
+    margin: 0.25rem 0rem;
+    font-weight: 400;
+    color: #4c4c4c;
+    cursor: pointer;
+}

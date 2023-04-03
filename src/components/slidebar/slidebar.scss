@@ -1,0 +1,35 @@
+.slidebar-contain {
+    background-color: #eee;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.slidebar-contain {
+    font-size: 21px;
+    display: block;
+    min-height: 1150px;
+    max-height: 1150px;
+    padding-top: 0;
+    padding-left: 10p;
+}
+
+.slide-item {
+    display: block;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    background-color: #eee;
+    color: #291c0a;
+}
+
+.slide-item {
+    margin-top: 5px;
+    padding-top: 0.2rems;
+}
+
+.slide-item:hover {
+    color: #ffffff;
+    background-color: #66b1f1cc;
+}
