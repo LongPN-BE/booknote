@@ -17,7 +17,8 @@ const Home = () => {
                 <Body />
             </main> */}
             <section class="et-hero-tabs">
-                <h1>Buil For Your Life</h1>
+                <img src="logo-02.png" className="img-home" />
+                <h1>Build For Your Life</h1>
                 <h3>I build this for my note somethings that i founded</h3>
                 <div class="et-hero-tabs-container">
                     <a class="et-hero-tab" href="#tab-es6">JavaScript</a>
@@ -25,6 +26,8 @@ const Home = () => {
                     {/* <a class="et-hero-tab" href="#tab-flexbox">Flexbox</a>
                     <a class="et-hero-tab" href="#tab-angular">Angular</a> */}
                     <a class="et-hero-tab" href="#tab-other">Other</a>
+
+
                 </div>
             </section>
 
