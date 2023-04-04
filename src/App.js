@@ -7,7 +7,7 @@ import Login from "./pages/Login/Login"
 //JAva Script
 import JIntroduction from "./pages/Javascipt/Introduction"
 import JSStatement from "./pages/Javascipt/Statements"
-import JSImage from "./pages/Javascipt/Image"
+import JSSyntax from "./pages/Javascipt/Syntax"
 function App() {
   return (
     <>
@@ -23,7 +23,7 @@ function App() {
             <Route path='js' >
               <Route index element={<JIntroduction />} />
               <Route path="statement" element={<JSStatement />} />
-              <Route path="img" element={<JSImage />} />
+              <Route path="syntax" element={<JSSyntax />} />
             </Route>
 
 

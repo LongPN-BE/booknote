@@ -15,9 +15,9 @@ const Footer = () => {
                     </div>
                     <div className="footer-section-columns">
                         <span>244-5333-7783</span>
-                        <span>hello@learnself.com</span>
-                        <span>press@learnself.com</span>
-                        <span>contact@learnself.com</span>
+                        <span>longpn.be@gmail.com</span>
+                        {/* <span>press@learnself.com</span>
+                        <span>contact@learnself.com</span> */}
                     </div>
                     <div className="footer-section-columns">
                         <span>Terms & Conditions</span>

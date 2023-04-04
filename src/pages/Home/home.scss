@@ -55,15 +55,19 @@ a {
     flex: 1;
     color: #000;
     letter-spacing: 0.1rem;
-    transition: all 0.5s ease;
+    transition: all 0.35s ease;
     font-size: 0.8rem;
-
-    &:hover {
-        color: white;
-        background: #66b1f1cc;
-        transition: all 0.5s ease;
-    }
+    cursor: pointer;
 }
+
+.et-hero-tabs-container:hover> :not(:hover) {
+    // color: white;
+    // background: #66b1f1cc;
+    // transition: all 0.5s ease;
+    opacity: .4;
+    transform: scale(0.9);
+}
+
 
 .et-slide-tab {
     padding-top: 15px;
