@@ -10,7 +10,7 @@ const NavBar = () => {
             <img src="https://images.pexels.com/photos/1518500/pexels-photo-1518500.jpeg?auto=compress&cs=tinysrgbs" />
         </div> */}
 
-            <nav>
+            <nav class="nav-container">
                 <div class="component-nav"><NavLink to="/" exact="/" replace={true}>Logo Here</NavLink></div>
                 <div style={{ float: 'right', paddingRight: '5px' }} class="component-nav"><div class="about">About</div></div>
             </nav>

@@ -15,8 +15,6 @@ const Home = () => {
                 JavaScript statements are composed of:
                 Values, Operators, Expressions, Keywords, and Comments.<br />
                 This statement tells the browser to write "Hello Dolly." inside an HTML element with id="demo":<br />
-            </div>
-            <div className="body-tag">
                 Most JavaScript programs contain many JavaScript statements.<br />
                 The statements are executed, one by one, in the same order as they are written.<br />
             </div>
@@ -41,8 +39,6 @@ const Home = () => {
                 <h3>JavaScript Keywords</h3>
                 JavaScript statements often start with a keyword to identify the JavaScript action to be performed.<br />
                 Our Reserved Words Reference lists all JavaScript keywords.<br />
-            </div>
-            <div className="body-tag">
                 Here is a list of some of the keywords you will learn about in this tutorial:<br />
                 <table>
                     <thead>

@@ -1,13 +1,15 @@
 nav {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
   background-color: #a5a3a375;
-  position: -webkit-sticky;
-  /* Safari */
-  position: sticky;
+  position: fixed !important;
   top: 0;
+}
+
+nav {
+  float: left !important;
+  width: 99%;
+  height: 10%;
 }
 
 .component-nav {

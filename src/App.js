@@ -6,8 +6,9 @@ import Login from "./pages/Login/Login"
 
 //JAva Script
 import JIntroduction from "./pages/Javascipt/Introduction"
-import JSStatement from "./pages/Javascipt/Statements"
+import JSStatements from "./pages/Javascipt/Statements"
 import JSSyntax from "./pages/Javascipt/Syntax"
+import JSVariables from "./pages/Javascipt/Variables"
 function App() {
   return (
     <>
@@ -22,8 +23,9 @@ function App() {
             {/*Route For JavaScript*/}
             <Route path='js' >
               <Route index element={<JIntroduction />} />
-              <Route path="statement" element={<JSStatement />} />
+              <Route path="statements" element={<JSStatements />} />
               <Route path="syntax" element={<JSSyntax />} />
+              <Route path="variables" element={<JSVariables />} />
             </Route>
 
 

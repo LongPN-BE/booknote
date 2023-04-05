@@ -1,16 +1,21 @@
 .slidebar-contain {
+    height: 100%;
+    width: 14%;
+    display: block !important;
     background-color: #eee;
-    // overflow-y: scroll;
+    position: fixed !important;
+    z-index: 1;
+    overflow-y: scroll;
     overflow-x: hidden;
-    padding-top: 20px;
 }
 
 .slidebar-contain {
     display: block;
-    min-height: 1380px;
-    max-height: 1380px;
     padding-top: 0;
     padding-left: 10p;
+    margin-bottom: 0px;
+    margin-top: 4.7%;
+    position: sticky;
 }
 
 .slide-item {
